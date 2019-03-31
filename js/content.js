@@ -28,7 +28,7 @@ window.onload = function()
   new Vue({
     el: '#'+ID,
     data: {
-      isShow: true,
+      isShow: false,
       text: ''
     },
     template: `<div style="${STYLES.BASE}" v-if="isShow">
